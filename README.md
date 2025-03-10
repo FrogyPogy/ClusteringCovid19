@@ -33,8 +33,8 @@ Proyek ini mengikuti langkah-langkah berikut:
   - `matplotlib` & `seaborn`: Visualisasi data
 
 ## Hasil
-- **Clustering**: Data kasus COVID-19 berhasil dikelompokkan ke dalam beberapa cluster berdasarkan fitur yang dipilih.
-- **Silhouette Score**: Nilai Silhouette Score dihitung untuk mengevaluasi kualitas clustering. Nilai mendekati 1 menunjukkan clustering yang baik, sedangkan nilai mendekati -1 menunjukkan clustering yang buruk.
+- **Clustering**: Data kasus COVID-19 berhasil dikelompokkan ke dalam empat cluster berdasarkan fitur yang dipilih.
+- **Silhouette Score**: Nilai Silhouette Score dihitung untuk mengevaluasi kualitas clustering. Nilai 0.62 menunjukkan clustering yang cukup baik.
 
 ## Kesimpulan
 Proyek ini berhasil mengelompokkan wilayah berdasarkan data kasus COVID-19 menggunakan K-Means dan mengevaluasi hasilnya dengan Silhouette Score. Hasil clustering dapat dimanfaatkan untuk analisis lebih lanjut, seperti mengidentifikasi wilayah dengan pola penyebaran serupa atau mendukung strategi penanganan pandemi yang lebih terarah.
